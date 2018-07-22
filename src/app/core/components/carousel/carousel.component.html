@@ -1,0 +1,14 @@
+<div class='carousel-container'>
+  <table>
+    <tr *ngIf='!carouselItems || carouselItems.length == 0'>
+      <th>Card not available.</th>
+    </tr>
+    <ng-container *ngFor='let carouselItem of carouselItems; index as i'>
+      <td class = 'highlight' (click)='itemSelected(i)' [class.highlight] = '_selectedAppearence[i]'>
+        <div class = 'card'>
+            <img class="thumbnail-img" src='{{carouselItem.img}}' alt="Card image">
+        </div>
+      </td>
+    </ng-container>
+  </table>
+</div>

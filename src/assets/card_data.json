@@ -1,0 +1,245 @@
+[
+            {
+                "id" : "1",
+                "themeData" : {
+                    "theme" : "Component Concept",
+                    "color" : "CadetBlue"
+                },
+                "header" : {
+                    "name" : "Micro-services",
+                    "color" : "CadetBlue"
+                },
+                "body" : {
+                    "description" : "Loosely coupled services which implement business capabilities and are leveraged across multiple use cases",
+                    "image" : "250x100",
+                    "mechanics" : {
+                        "type" : "Keeper",
+                        "details" : [{
+                          "image" : null,
+                          "text" : "Play this card in front of you or in the correct platform layer board"
+                          }]
+                    }
+                },
+                "footer" : {
+                    "number" : 23,
+                    "contentServicesLayer" : [{
+                      "name": "A",
+                      "color": "orange"
+                    },{
+                      "name": "C",
+                      "color": "green"
+                    }]
+                }
+            },
+            {
+                "id" : "2",
+                "themeData" : {
+                    "theme" : "Component Benefit",
+                    "color" : "aquamarine"
+                },
+                "header" : {
+                    "name" : "Speed to Market",
+                    "color" : "aquamarine"
+                },
+                "body" : {
+                    "description" : "Software is continually released to market instead of once or twice a year.",
+                    "image" : "250x200",
+                    "mechanics" : {
+                        "type" : "New Rule",
+                        "details" : [{"image" : null,
+                                    "text" : "Play an additional Keeper during your turn"}]
+                    }
+                },
+                "footer" : {
+                    "number" : 37,
+                    "contentServicesLayer" : [{
+                      "name": "M",
+                      "color": "orange"
+                    }]
+                }
+            },
+            {
+                "id" : "3",
+                "themeData" : {
+                    "theme" : "Platform Infrastructure",
+                    "color" : "BlueViolet"
+                },
+                "header" : {
+                    "name" : "Identity Provider",
+                    "color" : "BlueViolet"
+                },
+                "body" : {
+                    "description" : "An online service that authenticates users on the internet by means of security tokens.",
+                    "image" : "200x150",
+                    "mechanics" : {
+                        "type" : "Goal Requires",
+                        "details" : [{"image" : null,
+                                    "text" : "3rd Party APIs"},
+                                    {"image" : null,
+                                    "text" : "Integrations"}]
+                    }
+                },
+                "footer" : {
+                    "number" : 9,
+                    "contentServicesLayer" : [{
+                      "name": "A",
+                      "color": "red"
+                    },
+                    {
+                      "name": "M",
+                      "color": "drakgray"
+                    }]
+                }
+            },
+            {
+                "id" : "1",
+                "themeData" : {
+                    "theme" : "Component Concept",
+                    "color" : "CadetBlue"
+                },
+                "header" : {
+                    "name" : "Micro-services",
+                    "color" : "CadetBlue"
+                },
+                "body" : {
+                    "description" : "Loosely coupled services which implement business capabilities and are leveraged across multiple use cases",
+                    "image" : "250x100",
+                    "mechanics" : {
+                        "type" : "Keeper",
+                        "details" : [{
+                          "image" : null,
+                          "text" : "Play this card in front of you or in the correct platform layer board"
+                          }]
+                    }
+                },
+                "footer" : {
+                    "number" : 23,
+                    "contentServicesLayer" : [{
+                      "name": "A",
+                      "color": "orange"
+                    },{
+                      "name": "C",
+                      "color": "green"
+                    }]
+                }
+            },
+            {
+                "id" : "2",
+                "themeData" : {
+                    "theme" : "Component Benefit",
+                    "color" : "BurlyWood"
+                },
+                "header" : {
+                    "name" : "Speed to Market",
+                    "color" : "BurlyWood"
+                },
+                "body" : {
+                    "description" : "Software is continually released to market instead of once or twice a year",
+                    "image" : "250x200",
+                    "mechanics" : {
+                        "type" : "New Rule",
+                        "details" : [{"image" : null,
+                                    "text" : "Play an additional Keeper during your turn"}]
+                    }
+                },
+                "footer" : {
+                    "number" : 37,
+                    "contentServicesLayer" : [{
+                      "name": "M",
+                      "color": "orange"
+                    }]
+                }
+            },
+            {
+                "id" : "3",
+                "themeData" : {
+                    "theme" : "Platform Infrastructure",
+                    "color" : "DarkGreen"
+                },
+                "header" : {
+                    "name" : "Identity Provider",
+                    "color" : "DarkGreen"
+                },
+                "body" : {
+                    "description" : "An online service that authenticates users on the internet by means of security tokens.",
+                    "image" : "200x150",
+                    "mechanics" : {
+                        "type" : "Goal Requires",
+                        "details" : [{"image" : null,
+                                    "text" : "3rd Party APIs"},
+                                    {"image" : null,
+                                    "text" : "Integrations"}]
+                    }
+                },
+                "footer" : {
+                    "number" : 9,
+                    "contentServicesLayer" : [{
+                      "name": "A",
+                      "color": "red"
+                    },
+                    {
+                      "name": "M",
+                      "color": "drakgray"
+                    }]
+                }
+            },
+            {
+                "id" : "1",
+                "themeData" : {
+                    "theme" : "Component Concept",
+                    "color" : "DarkSlateGray"
+                },
+                "header" : {
+                    "name" : "Micro-services",
+                    "color" : "DarkSlateGray"
+                },
+                "body" : {
+                    "description" : "Loosely coupled services which implement business capabilities and are leveraged across multiple use cases.",
+                    "image" : "250x100",
+                    "mechanics" : {
+                        "type" : "Keeper",
+                        "details" : [{
+                          "image" : null,
+                          "text" : "Play this card in front of you or in the correct platform layer board."
+                          }]
+                    }
+                },
+                "footer" : {
+                    "number" : 23,
+                    "contentServicesLayer" : [{
+                      "name": "A",
+                      "color": "orange"
+                    },{
+                      "name": "C",
+                      "color": "green"
+                    }]
+                }
+            },
+            {
+                "id" : "2",
+                "themeData" : {
+                    "theme" : "Component Benefit",
+                    "color" : "OliveDrab"
+                },
+                "header" : {
+                    "name" : "Speed to Market",
+                    "color" : "OliveDrab"
+                },
+                "body" : {
+                    "description" : "Software is continually released to market instead of once or twice a year",
+                    "image" : "250x200",
+                    "mechanics" : {
+                        "type" : "New Rule",
+                        "details" : [{"image" : null,
+                                    "text" : "Play an additional Keeper during your turn"}]
+                    }
+                },
+                "footer" : {
+                    "number" : 37,
+                    "contentServicesLayer" : [{
+                      "name": "M",
+                      "color": "orange"
+                    }]
+                }
+            }
+    ]

@@ -1,0 +1,31 @@
+<div class="row">
+  <ng-container *ngIf="_selectedCard">
+    <div class="card-theme" [ngStyle]='cardTheme()'>
+      <h4 class="rotate">{{_selectedCard.theme.name}}</h4>
+    </div>
+    <div style="width:80% ;">
+      <div class="card">
+        <div class="card-header">
+          <h4>{{_selectedCard.header.name}}</h4>
+        </div>
+        <span class = "header-devider" [ngStyle]='hedareDeviderTheme()'></span>
+        <div>
+          <p style="padding: .75em 1em;">{{_selectedCard.body.description}}</p>
+        </div>
+        <img class="card-img card-img-top" src="{{_selectedCard.body.image}}">
+        <div class="card-block">
+          <div class="meta">
+            <a>Action:</a>
+          </div>
+          <div class="card-text">{{_selectedCard.body.mechanics.details[0].text}}</div>
+        </div>
+        <div class="card-footer">
+          <small style="font-size: 28px">{{_selectedCard.footer.number}}</small>
+          <ng-container *ngFor='let button of _selectedCard.footer.buttons'>
+            <button class="btn float-right btn-rounded" [style.background-color]='button.color'>{{button.name}}</button>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
